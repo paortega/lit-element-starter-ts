@@ -20,7 +20,7 @@ suite('my-element', () => {
     assert.shadowDom.equal(
       el,
       `
-      <h1>Hello, World!</h1>
+      <h1>Hola!</h1>
       <button part="button">Click Count: 0</button>
       <slot></slot>
     `
@@ -32,7 +32,7 @@ suite('my-element', () => {
     assert.shadowDom.equal(
       el,
       `
-      <h1>Hello, Test!</h1>
+      <h1>Heya, Test!</h1>
       <button part="button">Click Count: 0</button>
       <slot></slot>
     `
@@ -47,7 +47,7 @@ suite('my-element', () => {
     assert.shadowDom.equal(
       el,
       `
-      <h1>Hello, World!</h1>
+      <h1>Hola</h1>
       <button part="button">Click Count: 1</button>
       <slot></slot>
     `

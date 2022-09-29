@@ -41,6 +41,7 @@
   "author": "Google LLC",
   "license": "BSD-3-Clause",
   "dependencies": {
+    "@bundled-es-modules/axios": "^0.27.2",
     "lit": "^2.2.4"
   },
   "devDependencies": {
